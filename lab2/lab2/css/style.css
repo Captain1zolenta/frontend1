@@ -1,0 +1,58 @@
+#wrapper {
+    max-width: 960px;
+    /* мах ширина*/
+    margin: auto;
+/*     border :1px #f00; */
+/* wrapper( need google) используется для объединения блоков и
+ их выравнивания по центру страницы */
+}
+header {
+    padding: 20px0;
+    /*  padding задаёт расстояние от внутреннего края границы или края блока до воображаемого 
+    прямоугольника, ограничивающего содержимое блока */
+    }
+/* использоваться для ввода заголовка страницы*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   font-family:Verdana;
+   }
+   /* сброс стиля списка установленных по умолчанию */
+   nav li {
+    display: inline-block;
+    margin-right: 20px;
+    /* margin right устанавливает
+     внешний отступ справа от элемента */
+   }
+   /* элементы блока нав в строку */
+   nav a {
+    text-decoration: none;
+    color: #222;
+   }
+   /* удаление подчеркив на ссылках, цвет шрифта текста */
+   nav a:hover {
+    color: #732299;
+   }
+   /* цвет текста ссылки при наведении курсора */
+	
+   .dropdown {
+    display: none; }
+    /* скрытие выпад меню */
+    nav li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* * Установка тени на элементе 
+    выпадающего меню с помощью свойства */
+    padding: 10px;}
+/* позиционирование выпад меню */
+    .dropdown li {
+     display: block;
+     margin-bottom: 5px;
+    font-family:Verdana;}
+    /* стиль элементов выпад меню */
+    
+   
