@@ -6,13 +6,6 @@
 /* wrapper( need google) используется для объединения блоков и
  их выравнивания по центру страницы */
 }
-header {
-    padding: 20px0;
-    /*  padding задаёт расстояние от внутреннего края границы или края блока до воображаемого 
-    прямоугольника, ограничивающего содержимое блока */
-    }
-/* использоваться для ввода заголовка страницы*/
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -29,13 +22,14 @@ nav ul {
    /* элементы блока нав в строку */
    nav a {
     text-decoration: none;
-    color: #222;
+    color: #ffffff;
    }
    /* удаление подчеркив на ссылках, цвет шрифта текста */
    nav a:hover {
-    color: #732299;
+    color: #7e0202;
+    background-color: rgba(255, 255, 255, 0.2);
    }
-   /* цвет текста ссылки при наведении курсора */
+   /* Фон прозрачный ссылок при наведении*/
 	
    .dropdown {
     display: none; }
@@ -43,7 +37,7 @@ nav ul {
     nav li:hover .dropdown {
     display: block;
     position: absolute;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* * Установка тени на элементе 
     выпадающего меню с помощью свойства */
@@ -55,4 +49,3 @@ nav ul {
     font-family:Verdana;}
     /* стиль элементов выпад меню */
     
-   
