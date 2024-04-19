@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+.container input[type=number] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container button {
+    width: 100%;
+    padding: 10px;
+}
